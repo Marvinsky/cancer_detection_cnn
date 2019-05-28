@@ -53,10 +53,69 @@ Do you think that pretraining the network with completely different images like 
 
 Better... (Interesting, huum?)
 
+## Validation set:
+
+![Ilustration](/img/validation_set.png)
 
 
+## Evaluation Metrics:
+
+We already use precision and recall. However, in Medicine, doctors use sensitivity/specificity.
+
+## Question:
+
+What's the relation between sensitivity/specificity and recall/precision? ([Precision and recall](https://en.wikipedia.org/wiki/Precision_and_recall))
 
 
+Let's define:
 
+# Sensitivity:
+Of all the sick people, how many did we diagnose as sick?
 
+# Specificity:
+Of all the healthy people, how many did we diagnose as healthy?
+
+## Sensitivity and Specificity
+
+Sensitivity and Specificity are not the same as Precision and Recall.
+
+# In the case of cancer:
+
+  . Sensitivity: Of all the people with cancer, how many were correctly diagnose?
+  
+  . Specificity: Of all the people without cancer, how many were correctly diagnose?
+  
+# Precision and recall are the following:
+
+  . Recall: Of all the people who have cancer, how many did we diagnose as having cancer?
+  
+  . Precision: Of all the people we diagnose with cancer, how many actually had cancer?
+  
+Sensitivity and Recall are the same and Specificity and Precision are not the same thing.
+
+![confusion matriz](/img/confusion_matriz.png)
+
+Sensitivity and specificity are rows of this matrix. More specifically, if we label:
+
+  . TP: (True Positives) Sick people that we correctly diagnose as sick.
+  
+  . TN: (True Negatives) Healthy people that we correctly dianosed as healthy
+  
+  . FN: (False Positives) Healthy people that we incorrectly diagnosed as sick.
+  
+  . FN: (False Negatives) Sick people that we incorrectly diagnosed as healthy
+  
+Sensitivity = TP/(TP + FN)
+
+Specificity = TN/(TN + FP)
+
+![confusion matriz](/img/confusion_matriz_s_s.png)
+
+Precision and recall are the top row and left column of the matrix.
+
+Recall = TP/(TP + FN)
+
+Precision = TP/(TP + FP)
+
+![confusion matriz](/img/confusion_matriz_p_r.png)
 
