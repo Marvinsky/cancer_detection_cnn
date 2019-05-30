@@ -119,3 +119,26 @@ Precision = TP/(TP + FP)
 
 ![confusion matriz](/img/confusion_matriz_p_r.png)
 
+## Question:
+
+Say we have a neural network that outputs the probability of a melanoma. What value would you choose as a threshold to classify this as melanoma or no melanoma?
+
+  . 0.2%
+  . 0.5%
+  . 0.8%
+  
+If we have chosen 0.5% then your chances of accidentally missing a cancer are exactly the same as your chances of calling something a cancer that isn't.
+
+If we use 0.8% we will be great reducing the cost of dianostics, but bad in helping people survive when they actually have skin cancer. 
+
+0.2% is the number we would choose from these numbers, because of the asymmetry of cost of the regret. If you find that a person has been sent to the lab but the tissue was not cancerous, you have a regret, discomfort in getting skin extracted and there's a cost to the lab test, but the regret is small. If you conversely you overlook a cancer because you've been just too cheap to send the person to the lab, then this person might die. And that's a much, much bigger cost.
+
+So, 
+
+  . At 0.2, we classify every malignant lesion correctly, yet we also send a lot of benign lesions for more testing.
+
+  . At 0.5, we miss some malignant lesions (bad), and we send a few benign lesions for more testing.
+
+  . At 0.8, we correctly classify most of the benign lesions, but we miss many malignant lesions (very bad).
+ 
+![threshold](/img/threshold.png)
