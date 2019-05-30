@@ -124,7 +124,9 @@ Precision = TP/(TP + FP)
 Say we have a neural network that outputs the probability of a melanoma. What value would you choose as a threshold to classify this as melanoma or no melanoma?
 
   . 0.2%
+  
   . 0.5%
+  
   . 0.8%
   
 If we have chosen 0.5% then your chances of accidentally missing a cancer are exactly the same as your chances of calling something a cancer that isn't.
@@ -142,3 +144,20 @@ So,
   . At 0.8, we correctly classify most of the benign lesions, but we miss many malignant lesions (very bad).
  
 ![threshold](/img/threshold.png)
+
+
+## Confusion Matrix for 10 classes.
+
+![confusion matriz 10 clases](/img/confusion_matriz_9_clases.png)
+
+
+Suppose something is of class 1, what is the probability of the network saying class 2?
+So, for each number 0,1,2...9 you get a probability of confusion.
+
+The main diagonal means nothing is confused. In any value of the diagonal, shows high confusion.
+
+What we find is, that dermatologists have a higher confusion factor. So, dermatologists are much more inclined to misclassifying cases than the normal neural network.
+
+![Dermatologists Confusion Factor](/img/dermatologist_confusion_factor.png)
+
+
