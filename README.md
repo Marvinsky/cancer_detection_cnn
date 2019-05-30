@@ -160,4 +160,27 @@ What we find is, that dermatologists have a higher confusion factor. So, dermato
 
 ![Dermatologists Confusion Factor](/img/dermatologist_confusion_factor.png)
 
+## Resources:
 
+  . [Natural](https://www.nature.com/articles/nature21056.epdf?author_access_token=8oxIcYWf5UNrNpHsUHd2StRgN0jAjWel9jnR3ZoTv0NXpMHRAJy8Qn10ys2O4tuPakXos4UhQAFZ750CsBNMMsISFHIKinKDMKjShCpHIlYPYUHhNzkn6pSnOCt0Ftf6)
+  
+  . [Fortune Magazine](http://fortune.com/2017/01/26/stanford-ai-skin-cancer/)
+  
+  . [Bloomberg](https://www.bloomberg.com/news/articles/2017-06-29/diagnosing-skin-cancer-with-google-images)
+  
+  . [BBC](http://www.bbc.com/news/health-38717928)
+  
+  . [Wall Street Journal](https://www.wsj.com/articles/computers-turn-medical-sleuths-and-identify-skin-cancer-1486740634?emailToken=JRrzcPt+aXiegNA9bcw301gwc7UFEfTMWk7NKjXPN0TNv3XR5Pmlyrgph8DyqGWjAEd26tYY7mAuACbSgWwvV8aXkLNl1A74KycC8smailE=)
+  
+  . [Forbes](https://www.forbes.com/sites/forbestechcouncil/2017/09/27/what-can-computer-vision-do-in-the-palm-of-your-hand/#4d2c686847a7)
+  
+  . [Scientific American](https://www.scientificamerican.com/article/deep-learning-networks-rival-human-vision1/)
+  
+  
+  
+  
+  
+  
+  
+  
+Source: Sebastian Thrun from Udacity  
